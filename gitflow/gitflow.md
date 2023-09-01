@@ -1,23 +1,33 @@
-Por branching strategy
-¿por qué elegir este branching strategy? -- casos de uso
-steps per branch - (procesos-> workflow del desarrollo en esa estrategia) How to?(guide)
-buenas prácticas para mantener la estrategia de branching limpia (overview particular)
+# Introducción a Gitflow: un poco de contexo
 
-# Why to choose Gitflow?
+GitFlow es una estrategia de branching ampliamente adoptada en el ámbito del desarrollo de software, diseñada para administrar de manera efectiva el ciclo de vida de un proyecto. En su corazón, GitFlow aboga por el uso estructurado y significativo de ramas (branches) para orquestar el proceso de desarrollo, la gestión de versiones y la corrección de errores. Esta aproximación inculca una transparencia y uniformidad a lo largo del trayecto de desarrollo, capacitando a los equipos para colaborar de forma eficiente, introducir nuevas funcionalidades de forma ordenada y llevar a cabo lanzamientos de software con mayor rigurosidad y control. Este espacio te brindará una comprensión de los principios fundamentales del enfoque Perficient para la integración de GitFlow en nuestros proyectos, junto con las mejores prácticas y los escenarios ideales de implementación.
 
-**Clear Branching Model**: GitFlow defines a set of well-defined branches with specific purposes, such as feature branches for new features, release branches for preparing releases, and hotfix branches for fixing critical issues in production. This clear model makes it easier for team members to understand how code changes flow through the repository.
+## ¿Qué es Gitflow?
 
-**Separation of Concerns**: GitFlow separates long-lived branches from short-lived ones. For instance, feature branches contain only changes related to a specific feature and are merged into the develop branch when complete. This segregation helps maintain a cleaner history and simplifies code review and integration.
+**Gitflow** es una estrategia de ramificación que utiliza dos ramas principales: "master" y "develop". En esta metodología, todo el equipo integra cambios de forma constante en la rama "develop" y utiliza la rama "master" para las versiones de producción estables. Además, se crean ramas de características ("feature branches"), ramas de lanzamiento ("release branches") y ramas de corrección de errores ("hotfix branches") para gestionar el desarrollo de nuevas características, preparar lanzamientos y solucionar problemas urgentes.
 
-**Support for Parallel Development**: GitFlow facilitates concurrent development of multiple features by creating separate branches for each feature. This enables teams to work on different features simultaneously without interfering with each other's work.
+## Consideraciones para usar Gitflow
 
-**Release Management**: The GitFlow workflow includes dedicated release branches where the code is prepared for deployment. This allows for last-minute bug fixes and quality assurance before deploying the code to production.
+- **Entregas Planificadas y Estables:** Gitflow es ideal cuando se requieren entregas planificadas y estables para las versiones de producción. La rama "develop" actúa como un lugar central para integrar y probar nuevas características antes de ser fusionadas en "master" para su lanzamiento.
 
-**Hotfixes**: GitFlow provides a structured way to handle urgent bug fixes in production. Hotfix branches are created from the master branch, allowing for quick fixes without disturbing ongoing development.
+- **Gestión de Versiones Controlada:** Si tu proyecto necesita un control estricto de versiones y la capacidad de crear rápidamente lanzamientos estables, Gitflow ofrece un marco estructurado para lograrlo.
 
-**Consistency**: By using GitFlow, teams can establish consistent practices for version control and collaboration. This consistency improves code stability, reduces conflicts, and enhances overall development efficiency.
+- **Colaboración en Equipo:** Gitflow fomenta la colaboración en equipo al permitir que los desarrolladores trabajen en paralelo en diferentes características sin interferencias. Cada característica se desarrolla en su propia rama.
 
-**Tooling and Community Support**: GitFlow has been around for a while, and as a result, many Git tools and services (e.g., Git clients, continuous integration tools) have built-in support for its workflow. Additionally, there's a vast community that can offer guidance and best practices for implementing GitFlow in different scenarios.
+- **Corrección de Errores Urgentes:** La estrategia de ramas de corrección de errores ("hotfix branches") permite abordar problemas críticos en la versión de producción de manera ágil y sin perturbar el desarrollo en curso.
 
-# How to implement succesfully Gitflow?
+- **Complejidad Adicional:** Gitflow puede añadir complejidad al proceso debido a la gestión de múltiples tipos de ramas. Esto puede requerir una planificación y coordinación cuidadosas.
 
+## Ventajas de Utilizar Gitflow
+
+- **Estructura Clara:** Gitflow proporciona una estructura clara y organizada para el desarrollo de software, lo que facilita el seguimiento y la gestión de las diferentes etapas del ciclo de vida del software.
+
+- **Control de Versiones Preciso:** Con ramas de características, ramas de lanzamiento y ramas de corrección de errores claramente definidas, es más fácil mantener un control preciso de las versiones y gestionar las actualizaciones.
+
+- **Flexibilidad:** Gitflow ofrece flexibilidad al permitir la incorporación de nuevas características de manera aislada y planificada, lo que facilita la colaboración en equipo.
+
+- **Seguridad en la Producción:** La rama "master" almacena versiones de producción estables, lo que garantiza que las actualizaciones se realicen de manera segura y controlada.
+
+- **Resolución Eficiente de Problemas:** Las ramas de corrección de errores ("hotfix branches") permiten abordar problemas críticos de manera rápida y eficiente sin afectar el desarrollo en curso.
+
+En resumen, Gitflow es una estrategia de ramificación sólida que brinda un enfoque estructurado para el desarrollo de software, especialmente cuando se requieren entregas controladas y versiones estables. Sin embargo, su complejidad adicional puede ser una consideración importante, y es crucial evaluar si se adapta a las necesidades específicas de tu equipo y proyecto antes de adoptarla.
