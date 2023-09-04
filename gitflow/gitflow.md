@@ -67,6 +67,8 @@ El equipo solía trabajar en un solo branch principal llamado "master". Cada vez
 
 4. **Pruebas Inadecuadas**: Los testers tenían dificultades para realizar pruebas adecuadas, ya que no tenían una base de código estable para trabajar. Esto resultaba en pruebas de calidad deficientes y errores frecuentes en producción.
 
+![Scenario 1](./img/branching_1.drawio.png)
+
 ## La Implementación de Gitflow
 
 Después de enfrentar estos problemas de manera recurrente, el equipo decidió implementar la metodología Gitflow. Esta estrategia de branching proporciona una estructura más organizada para el flujo de trabajo de desarrollo de software. Aquí está cómo lo hicieron:
