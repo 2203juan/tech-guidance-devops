@@ -81,6 +81,8 @@ Después de enfrentar estos problemas de manera recurrente, el equipo decidió i
 
 4. **Hotfix Branches**: Para solucionar problemas críticos en producción, se creaban branches de "hotfix" directamente desde "master" y se fusionaban de nuevo en ambas ramas.
 
+![Scenario 1](./img/gitflow.svg)
+
 ## Beneficios y Experiencia con Gitflow
 
 La implementación de Gitflow trajo varios beneficios notables:
