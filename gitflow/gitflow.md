@@ -113,9 +113,6 @@ En resumen, la implementación de Gitflow permitió que un equipo altamente capa
 6. **Optimización para la Integración y Entrega Continua (CI/CD):** Aunque Gitflow no está específicamente diseñado para la Integración Continua (CI) ni la Entrega Continua (CD), es perfectamente capaz de desempeñarse de manera efectiva en entornos de CI/CD. La clave radica en la creación de un proceso de CI/CD sólido en las ramas previas a la rama principal (como `develop` o `feature`).Este proceso implica la automatización de pruebas, construcción y/o despliegue en las ramas de feature y develop. Al implementar estas prácticas, se superan los desafíos asociados, lo que garantiza una integración y entrega ininterrumpidas de software. Esto resulta esencial para alcanzar un desarrollo ágil y una entrega de software confiable.
 
 
-6. **Mayor complejidad en proyectos pequeños:** En proyectos pequeños o equipos reducidos, Gitflow puede parecer innecesariamente complejo y puede dificultar más que ayudar en el proceso de desarrollo.
-
-
 Es importante recordar que no existe un flujo de trabajo único que sea adecuado para todos los proyectos. La elección de Gitflow u otro flujo de trabajo debe basarse en las necesidades y las circunstancias específicas de tu equipo y proyecto. Puedes adaptar Gitflow o considerar otras metodologías de desarrollo, como GitLab Flow, GitHub Flow o GitOps, según lo que mejor se adapte a tus requerimientos.
 
 # ¿ Cómo implementar GitFlow ?
