@@ -23,7 +23,7 @@ A continuacion los siguientes puntos son aquellos los cuales se tiene que tener 
 
 ### [GitHub Flow](https://github.com/2203juan/tech-guidance-devops/blob/githubflow-mateo/branching-strategy/Github%20flow/Github%20flow.md)
 
-### [GitHub Flow](https://github.com/2203juan/tech-guidance-devops/blob/GitFlow-juanhoyos/gitflow/gitflow.md)
+### [GitFlow](https://github.com/2203juan/tech-guidance-devops/blob/GitFlow-juanhoyos/gitflow/gitflow.md)
 
 ### [GitOps](https://github.com/2203juan/tech-guidance-devops/blob/gitops-ricardo/branching-strategy/Gitops/Gitops.md)
 
