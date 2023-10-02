@@ -19,13 +19,13 @@ A continuacion los siguientes puntos son aquellos los cuales se tiene que tener 
 
 ## Metodos de branching : 
 
-### [Trunk Based](https://github.com/2203juan/tech-guidance-devops/blob/gitFlow-alejo/trunk-based/trunk-based.md)
+### [Trunk Based](https://github.com/2203juan/tech-guidance-devops/blob/main/trunk-based/trunk-based.md)
 
-### [GitHub Flow](https://github.com/2203juan/tech-guidance-devops/blob/githubflow-mateo/branching-strategy/Github%20flow/Github%20flow.md)
+### [GitHub Flow](https://github.com/2203juan/tech-guidance-devops/blob/main/Github%20flow/gitflow.md)
 
-### [GitFlow](https://github.com/2203juan/tech-guidance-devops/blob/GitFlow-juanhoyos/gitflow/gitflow.md)
+### [GitFlow](https://github.com/2203juan/tech-guidance-devops/blob/main/gitflow/gitflow.md)
 
-### [GitOps](https://github.com/2203juan/tech-guidance-devops/blob/gitops-ricardo/branching-strategy/Gitops/Gitops.md)
+### [GitOps](https://github.com/2203juan/tech-guidance-devops/blob/main/Gitops/Gitops.md)
 
 
 
