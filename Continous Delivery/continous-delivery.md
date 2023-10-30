@@ -19,3 +19,8 @@ Continous delivery es una practica en el desarrollo del software la cual trata d
 ## Seguridad en Continuous Delivery
 
 ## Estudio de caso
+
+links : 
+https://aws.amazon.com/es/devops/continuous-delivery/
+https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/continuous-delivery/
+https://www.ibm.com/mx-es/topics/continuous-delivery
