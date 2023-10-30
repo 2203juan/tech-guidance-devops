@@ -1,11 +1,9 @@
-# Continuous Deployment
+## Descripción del CD
+- Explicación detallada del Despliegue Continuo.
+- Distinción entre Integración Continua, Entrega Continua y Despliegue Continuo.
 
 ## Introducción
 - Introducción al Despliegue Continuo y su importancia en el desarrollo de software.
-
-## Descripción del DC
-- Explicación detallada del Despliegue Continuo.
-- Distinción entre Integración Continua, Entrega Continua y Despliegue Continuo.
 
 ## Requisitos Previos
 - Lista de requisitos previos para implementar el DC en la empresa, incluyendo control de versiones, pruebas automatizadas, etc.
@@ -41,16 +39,21 @@
 - Descripción de los mecanismos de monitoreo y retroalimentación para detectar problemas en producción.
 - Cómo las retroalimentaciones informan el desarrollo.
 
-## Mejores Prácticas
-- Una lista de mejores prácticas para un DC exitoso.
-- Consejos y pautas seguidas por el equipo.
+## Diferencia entre Continuous Delivery y Continuous Deployment
 
+## DevOps y Continous delivery 
+
+## Seguridad en Continuous Delivery
+
+
+links : 
+https://aws.amazon.com/es/devops/continuous-delivery/
+https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/continuous-delivery/
+https://www.ibm.com/mx-es/topics/continuous-delivery
+
+## Beneficios de Continous Delivery 
+
+## Desventajas
 ## Desafíos y Soluciones
-- Identificación de desafíos comunes en la implementación del DC.
-- Soluciones y estrategias para superar estos desafíos.
 
-## Estudios de Caso
-- Ejemplos del mundo real o estudios de caso del viaje de DC de la empresa.
-- Destacar éxitos y lecciones aprendidas.
-## Conclusión
-- Resumen de los puntos clave y la importancia del DC en la empresa.
+## Estudio de caso
